@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="jquery.lineProgressbar.css" rel="stylesheet">
+    <link rel="stylesheet" href="progressbar/jquery.lineProgressbar.css">
+    <title>Resume</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .logodis{
+          width: 25px;
+          height: 25px;
+          border-radius: 50%;
+          background-color: #eea308;
+        }
+        .h3{
+          font-family: 'Playfair Display', serif;
+          font-weight: 600;
+          margin-left: 38%;
+          margin-top: -26px;
+        }
+        .logodis1{
+          font-size: 16px;
+          margin-left: 143%;
+          margin-top: -33px;
+        }
+        .navbar-nav{
+            margin-left: 70%;
+            padding-top: 30px;
+        }
+        .nav-link{
+            color: black;
+            font-size: 17px;
+        }
+        .nav-link:hover{
+            color: #D35400;
+            border-bottom: 1px solid #D35400;
+        }
+        h2{
+            font-size: 40px;
+            font-weight: 600;
+            font-family: Arial,Helvetica,sans-serif;
+        }
+        .h5{
+            font-size: 25px;
+            font-weight: 600;
+            color: black;
+            letter-spacing: 1px;
+            font-family: Arial,Helvetica,sans-serif;
+        }
+        b{
+            font-size: 19px;
+        }
+        .p{
+            width: 70%;
+        }
+        .h6{
+          font-size: 19px;
+        }
+ 
+        @media screen and (max-width: 480px) {
+          .logodis1{
+            margin-left: 124%;
+          }
+          .ico{
+            margin-right: 30%;
+          }
+          
+          .h5{
+            position: relative;
+            top: -50px;
+            left: -7px;
+          }
+          .year{
+            position: relative;
+            top: -90px;
+            left: 45px; 
+          }
+          b{
+            position: absolute;
+            left: -25px;
+            top: 14px;
+          }
+          .p{
+            padding-left: 11%;
+            margin-top: -95px;
+          }
+          .year1{
+            position: relative;
+            left: 45px; 
+          }
+          .year1 b{
+            position: relative;
+            top: -30px;
+            left: -125px ;
+          }
+          .pr{
+            position: absolute;
+            top: 104%;
+          }
+          .hr{
+            position: relative;
+            top: 100px;
+          }
+          .sk{
+            position:relative;
+            top: 30px;
+          }
+          .skil{
+            margin-left: 14%;
+            margin-top: 40px;
+            color: black; 
+          }
+          .heading10{
+            margin-top: -30px;
+          }
+          .pre{
+            position: relative;
+            left: -41px;
+            top: 93px;
+          }
+          .heading11{
+            margin-top: 40px;
+          }
+          .foll{
+            margin-top: 28%;
+          }
+          .pre1{
+            margin-top: 49%;
+            margin-left: -10%;
+
+          }
+        }
+    </style>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+     <script src="jquery.lineProgressbar.js"></script>
+     <script src="progresbar/jquery.lineProgressbar.js"></script>
+</head>
+<body style="background-color: #eaeeee;">
+    <nav class="navbar navbar-expand-sm">
+        <a class="navbar-brand ms-4">
+            <div style="cursor: pointer;">
+                <div class="logodis"></div>
+                <h3 class="h3">Gayatri</h3>
+                <p class="logodis1">Web designer</p>
+            </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse ico" id="mynavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a href="index.html" class="nav-link  mt-2 me-3">About</a>
+                </li>
+                <li class="nav-item">
+                  <a href="resume.html" class="nav-link mt-2 me-3">Resume</a>
+                </li>
+                <li class="nav-item">
+                  <a href="project.html" class="nav-link mt-2 me-3">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link mt-2 me-3">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!------------navbar complete-->
+    <div class="container">
+        <div class="row">
+            <h2 class="ms-5 mt-5">Resume</h2>
+            <div class="col-sm-6">
+                <h5 class="ms-5 ps-2 mt-4 pt-5 h5">Education</h5>
+            </div>
+            <div class="col-sm-6">
+                <div>
+                    <p class="year mt-5 pt-5">2020 - 2021<b class="ms-4">Secondary School Education</b></p>
+                    <p class="p ms-1">Secondary education or post-primary education covers two phases on the international standard classification of Education scale.</p>
+                </div>
+                <div class="mt-4">
+                    <p class="year1 mt-4 pt-5">2021 - present<b class="ms-4">BCA in Computer Science</b></p>
+                    <p class="p pr ms-1">The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture.</p>
+                </div>
+            </div>
+        </div>
+        <hr class="mt-5 pt-5 hr">
+        <div class="row">
+            <div class="col-sm-6">
+                <h5 class="ms-5 ps-2 mt-4 pt-5 h5 sk">Skills</h5>
+            </div>
+            <div class="col-sm-6">
+              <div class="skil">
+                <h6 class="h6">HTML</h6>
+                  <div class="jq" id="jq"></div>
+                <h6 class="h6 pt-3">CSS</h6>
+                  <div class="jq" id="jq1"></div>
+                <h6 class="h6 pt-3">JAVASCRIPT</h6>
+                  <div class="jq" id="jq2"></div>
+                <h6 class="h6 pt-3">RECAT</h6>
+                  <div class="jq" id="jq3"></div>
+              </div>
+            </div>   
+        </div>
+        <!------foooter---->
+        <hr style="margin-top:8%;">
+          <div class="row pt-5" >
+              <div class="col-sm-3">
+                  <h6 class="heading10 ms-5">Phone</h6>
+                  <p  class="p pre ms-5">123-456-7890</p>
+              </div>
+              <div class="col-sm-3">
+                  <h6 class="heading11 ms-5">Email</h6>
+                  <p  class="p pre ms-5">gayatrisonwane093@gmail.com</p>
+              </div>
+            <div class="col-sm-3">
+                <h6  class="foll ms-5">Follow Me</h6>
+                <p  class="p pre ms-5">
+                    <a href="#"><img src="images/icons8-instagram-24 (2).png"></a>
+                    <a class="ps-2" href="#"><img src="images/icons8-twitter-24.png"></a>
+                </p>
+            </div>
+            <div class="col-sm-3 pre1">
+                <p  class="p ms-5" style="font-size: 13px;">© 2023 By Gayatri Sonwane.Powered and secured</p>
+            </div>
+          </div>
+    </div>  
+    <script>
+        $('#jq').LineProgressbar({
+            percentage: 85 // 85%
+        });
+        $('#jq1').LineProgressbar({
+            percentage: 80 // 80%
+        });
+        $('#jq2').LineProgressbar({
+            percentage: 60 // 60%
+        });
+        $('#jq3').LineProgressbar({
+            percentage: 50 // 50%
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>  
+</body>
+</html>

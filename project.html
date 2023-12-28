@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Projects</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .logodis{
+          width: 25px;
+          height: 25px;
+          border-radius: 50%;
+          background-color: #eea308;
+        }
+        .h3{
+          font-family: 'Playfair Display', serif;
+          font-weight: 600;
+          margin-left: 38%;
+          margin-top: -26px;
+        }
+        .logodis1{
+          font-size: 16px;
+          margin-left: 143%;
+          margin-top: -33px;
+        }
+        .navbar-nav{
+            margin-left: 70%;
+            padding-top: 30px;
+        }
+        .nav-link{
+            color: black;
+            font-size: 17px;
+        }
+        .nav-link:hover{
+            color: #D35400;
+            border-bottom: 1px solid #D35400;
+        }
+        h2{
+            color: black;
+            font-weight: 700;
+            font-size: 39px;
+        }
+        h5{
+            color: black;
+            font-size: 26px;
+            font-weight: 600;
+        }
+        .paragraph{
+            width: 85%;
+            margin-left: 10%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+        }
+        .box1{
+            padding-top: 25%;
+            transition: transform .2s;
+        }
+        .box1:hover{
+            -ms-transform: scale(1.1); /* IE 9 */
+            -webkit-transform: scale(1.1); /* Safari 3-8 */
+            transform: scale(1.1); 
+        }
+        .pera1{
+            padding-top: 12%;
+        }
+        button{
+            margin-left: 10%;
+            padding: 6px 5px;
+            font-size: 17px;
+        }
+        button:hover{
+            background-color: #D35400;
+            border: none;
+            padding: 9px 5px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        a:hover{
+            color: white;
+        }
+        @media screen and (max-width: 480px) {
+          .logodis1{
+            margin-left: 124%;
+          }
+          .ico{
+            margin-right: 30%;
+          }
+          h2{
+            font-size: 35px;
+            font-weight: 700;
+          }
+          .main-con{
+            margin-top: -65px;
+          }
+          .img{
+            margin-left: 10%;
+            width: 100%;
+          }
+          .pera1{
+            margin-top: -40px;
+          }
+          .box1{
+            margin-top: -40px;
+          }
+        }
+    </style>
+</head>
+<body style="background-color: #eaeeee;">
+    <nav class="navbar navbar-expand-sm">
+        <a class="navbar-brand ms-4">
+            <div style="cursor: pointer;">
+                <div class="logodis"></div>
+                <h3 class="h3">Gayatri</h3>
+                <p class="logodis1">Web designer</p>
+            </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse ico" id="mynavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a href="index.html" class="nav-link  mt-2 me-3">About</a>
+                </li>
+                <li class="nav-item">
+                  <a href="resume.html" class="nav-link mt-2 me-3">Resume</a>
+                </li>
+                <li class="nav-item">
+                  <a href="project.html" class="nav-link mt-2 me-3">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link mt-2 me-3">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!------------navbar complete-->
+    <div class="container">
+        <h2 class="ms-5 mt-5">Projects</h2>
+        <div class="row  main-con">
+                <div class="col-sm-6 pera1">
+                    <h5 class="ms-5 ps-2 mt-4 pt-5">Project Name 01</h5>
+                    <p class="paragraph mt-4">Alarm clock well have 2 digits assigned to hours (24 hours), and 2 digits assigned to minutes (60 minutes), and a flashing LED to represent the seconds.</p>
+                    <button><a href="https://github.com/gayatrisonwane093/alarmcolck">view on github</a></button>
+                </div>
+                <div class="col-sm-6">
+                    <div class="img box1"> 
+                        <a href="https://github.com/gayatrisonwane093/alarmcolck"><img src="images/alarm.png"width="80%"></a>
+                    </div>     
+                </div>
+                <div class="col-sm-6 pera1">
+                    <h5 class="ms-5 ps-2 mt-4 pt-5">Project Name 02</h5>
+                    <p class="paragraph mt-4">Calculator build by javascript. There is a input field to show result and the buttons to type input. </p>
+                    <button><a href="https://github.com/gayatrisonwane093/javascript-calculator/blob/main/neumorphism-effect-calculator.html">view on github</a></button>
+                </div>
+                <div class="col-sm-6">
+                    <div class="img box1"> 
+                        <a href="https://github.com/gayatrisonwane093/javascript-calculator/blob/main/neumorphism-effect-calculator.html"><img src="images/calc1.png"width="80%"></a>
+                    </div>   
+                </div>
+                <div class="col-sm-6 pera1 ">
+                    <h5 class="ms-5 ps-2 pt-2">Project Name 03</h5>
+                    <p class="paragraph mt-4">The Weather app includes a number of features that provide information about current and forecasted weather</p>
+                    <button><a href="https://github.com/gayatrisonwane093/weatherapi/blob/main/weathere.html">view on github</a></button>
+                </div>
+                <div class="col-sm-6">
+                    <div class="img box1"> 
+                        <a href="https://github.com/gayatrisonwane093/weatherapi/blob/main/weathere.html"><img src="images/weatherscren.png"width="80%"></a>
+                    </div>   
+                </div>
+        </div>
+            <hr style="margin-top: 10%;">
+            <!------foooter---->
+            <div class="row pt-5">
+                <div class="col-sm-3">
+                    <h6 class="ms-5">Phone</h6>
+                    <p  class=" p ms-5">123-456-7890</p>
+                </div>
+                <div class="col-sm-3">
+                    <h6 class="ms-5">Email</h6>
+                    <p  class=" p ms-5">gayatrisonwane093@gmail.com</p>
+                </div>
+                <div class="col-sm-3">
+                    <h6 class="ms-5">Follow Me</h6>
+                    <p  class=" p ms-5">
+                        <a href="#"><img src="images/icons8-instagram-24 (2).png"></a>
+                        <a class="ps-2" href="#"><img src="images/icons8-twitter-24.png"></a>
+                    </p>
+                </div>
+                <div class="col-sm-3">
+                    <p  class=" p ms-5" style="font-size: 13px;">© 2023 By Gayatri Sonwane.Powered and secured</p>
+                </div>
+            </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>   
+</body>
+</html>

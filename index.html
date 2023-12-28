@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>protfolio</title>
+     <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .logodis{
+          width: 25px;
+          height: 25px;
+          border-radius: 50%;
+          background-color: #eea308;
+        }
+        .h3{
+          font-family: 'Playfair Display', serif;
+          font-weight: 600;
+          margin-left: 38%;
+          margin-top: -26px;
+        }
+        .logodis1{
+          font-size: 16px;
+          margin-left: 143%;
+          margin-top: -33px;
+        }
+        .navbar-nav{
+            margin-left: 70%;
+            padding-top: 30px;
+        }
+        .nav-link{
+            color: black;
+            font-size: 17px;
+        }
+        .nav-link:hover{
+            color: #D35400;
+            border-bottom: 1px solid #D35400;
+        }
+        .circle{
+          width: 430px;
+          height: 430px;
+          background-color: aliceblue;
+          border-radius: 50%;
+          animation-name: circle;
+          animation-duration: 4s ;
+          animation-iteration-count: infinite;    
+        }
+        @keyframes circle{
+            0%   {background-color:#ff014f; }
+            20%  {background-color: #f79533; }
+            25%  {background-color:#f37055; }
+            40%  {background-color:#ef4e7b; }
+            50% {background-color:#a166ab; }
+            60% {background-color:#f79533; }
+            70% {background-color:#1098ad; }
+            90% {background-color:#07d39d; }
+            100% {background-color:#6fba82; }   
+        }
+        .cir{
+          border-radius: 50%; 
+          width: 400px;
+          height: 400px;
+          margin-left: 15px;
+          margin-top: 15px;       
+        }
+        .h1{
+          font-size: 100px;
+          color: #000000;
+          font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          letter-spacing: 1px; 
+        }
+        p{
+          font-family: Arial,Helvetica,sans-serif;
+          font-size: 20px;
+          color: black;
+        }
+        .p{
+          font-size: 15px;
+          width: 75%;
+          letter-spacing: 1px;
+        }
+        .round{
+          width: 130px;
+          height: 130px;
+          border-radius: 50%;
+          background-color: #eea308;
+          border: 1px solid black;
+          float: left;
+        }
+        .round:hover{
+          background: transparent;
+        }
+        .round1{
+          background-color: #ff3b25;
+        }
+        .round1:hover{
+          background: transparent;
+        }
+        .round2{
+          background-color: #80d8da;
+        }
+        .round2:hover{
+          background: transparent;
+        }
+        .h5{
+          text-align: center;
+          font-size: 22px;
+          color: #000000;
+        }
+        a{
+          text-decoration: none;
+        }
+        h6{
+          color: #000000;
+          font-size: 19px;
+          font-weight: 700;
+        }  
+        @media screen and (max-width: 480px) {
+          .navbar{
+            padding-top: 20px;
+          }
+          .logodis1{
+            margin-left: 124%;
+          }
+          .ico{
+            margin-right: 30%;
+          }
+          .circle{
+            width: 300px;
+            height: 300px;
+            position: relative;
+            top: -70px;
+          }
+          .cir{
+            width: 280px;
+            height: 280px;
+            margin-left: 10px;
+            margin-top: 10px; 
+          }
+          .text{
+            position: relative;
+            left: 25%;
+            top: -150px;
+          }
+          .p{
+            width: 100%;
+          }
+          .cr{
+            margin-left: 8%;
+          }  
+          .round{
+            width: 80px;
+            height: 80px;
+            margin-left: -30px;
+          }
+          .h5{
+            font-size: 15px;
+            position: relative;
+            top: -20px;   
+          }
+        }
+     </style>
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body style="background-color: #E5E8E8;">
+  <nav class="navbar navbar-expand-sm">
+    <a class="navbar-brand ms-4">
+      <div style="cursor: pointer;">
+        <div class="logodis"></div>
+         <h3 class="h3">Gayatri</h3>
+         <p class="logodis1">Web designer</p>
+      </div>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse ico" id="mynavbar">
+      <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link  mt-2 me-3">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="resume.html" class="nav-link mt-2 me-3">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a href="project.html" class="nav-link mt-2 me-3">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a href="contact.html"  class="nav-link mt-2 me-3">Contact</a>
+            </li>
+      </ul>
+    </div>
+  </nav>
+  <!------------navbar complete-->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6 mt-5 pt-4">
+        <div class="circle mt-5 ms-5"><img class="cir" src="gs.jfif"></div>
+      </div>
+      <div class="col-sm-6 mt-5 text" style="padding-top: 40px; margin-left: -30px;">
+          <h1 class="h1 mt-5">Hello</h1>
+          <p class="ps-2"><b>A Bit About Me</b></p>
+          <p class="p ps-2">I'm a Web Developer with extensive in  JAVASCRIPT</p>
+         
+          <div>
+            <div class="round mt-5 cr" data-aos="fade-up"data-aos-duration="3000">
+              <a href="resume.html"><h5 class="h5 mt-5 pt-1">Resume</h5></a>
+            </div>
+            <div class="round round1 ms-3 mt-5" data-aos="fade-up"data-aos-duration="3000">
+              <a href="project.html"><h5 class="h5  mt-5 pt-1">Projects</h5></a>
+            </div>
+            <div class="round round2 ms-3 mt-5" data-aos="fade-up"data-aos-duration="3000">
+              <a href="contact.html"><h5 class="h5  mt-5 pt-1">Contact</h5></a>
+            </div>
+          </div>
+        </div>
+  </div>
+  <hr style="margin-top:8%;" class="ms-5 me-5">
+  <!----------footer start-->
+  <div class="row pt-5 box">
+    <div class="col-sm-3">
+      <h6 class="ms-5">Phone</h6>
+      <p  class=" p ms-5">123-456-7890</p>
+    </div>
+    <div class="col-sm-3">
+      <h6 class="ms-5">Email</h6>
+      <p  class="p ms-5">gayatrisonwane093@gmail.com</p>
+    </div>
+    <div class="col-sm-3">
+      <h6 class="ms-5">Follow Me</h6>
+      <p  class=" p ms-5 ps-2">
+        <a href="#"><img src="images/icons8-instagram-24 (2).png"></a>
+        <a class="ps-2" href="#"><img src="images/icons8-twitter-24.png"></a>
+      </p>
+    </div>
+    <div class="col-sm-3">
+      <p  class=" ms-5" style="font-size: 13px;">
+        © 2023 By Gayatri Sonwane.
+        Powered and secured</p>
+    </div>
+  </div>
+  
+  <script>
+    AOS.init();
+  </script>
+
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script> 
+</body>
+</html>
